@@ -1,0 +1,17 @@
+Attribute,Data Type,Description
+dteday,Object,Date
+hum,Float,Normalized humidity. The values are divided into 100% (max)
+weathersit,Integer,"1: Clear, Few Clouds, Partly Cloudy"
+,,"2: Mist + Cloudy, Mist + Broken Clouds, Mist + Few Clouds, Mist"
+,,"3: Light Snow, Light Rain + Thunderstorm + Scattered Clouds, Light Rain + Scattered Clouds"
+,,"4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog"
+holiday,Integer,"Holiday or not (0: Not Holiday, 1: Holiday)"
+season,Integer,"Season (1: Winter, 2: Spring, 3: Summer, 4: Fall)"
+atemp,Float,Normalized feeling temperature in Celsius
+,,"The values are derived via (t - tmin)/(tmax - tmin), tmin = -16 and tmax = +50 (only in hourly scale)"
+temp,Float,Normalized temperature in Celsius
+,,"The values are derived via (t - tmin)/(tmax - tmin), tmin= -8 and tmax = +39 (only in hourly scale)"
+hr,Integer,Hour (0 to 23)
+casual,Integer,Count of casual users
+registered,Integer,Count of registered users
+cnt,Integer,Count of total rental bikes including both casual and registered
